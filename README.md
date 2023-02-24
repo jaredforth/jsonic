@@ -4,6 +4,14 @@ This is an implementation of a domain-specific-language based on JSON. ...
 
 This is part of the excellent book [Beautiful Racket](https://beautifulracket.com/jsonic), which I would highly recommend checking out.
 
+## Requirements
+
+From [Beautiful Racket](https://beautifulracket.com/jsonic/specification.html)
+
+> Every valid `jsonic` program produces valid JSON.
+> Every valid JSON file is a valid `jsonic` program.
+> Racket expres­sions can be embedded in place of any JSON value.
+> Line comments start with `//`
 
 ## Grammar
 

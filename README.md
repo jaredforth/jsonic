@@ -8,10 +8,10 @@ This is part of the excellent book [Beautiful Racket](https://beautifulracket.co
 
 From [Beautiful Racket](https://beautifulracket.com/jsonic/specification.html)
 
-> Every valid `jsonic` program produces valid JSON.
-> Every valid JSON file is a valid `jsonic` program.
-> Racket expres­sions can be embedded in place of any JSON value.
-> Line comments start with `//`
+> - Every valid `jsonic` program produces valid JSON.
+> - Every valid JSON file is a valid `jsonic` program.
+> - Racket expres­sions can be embedded in place of any JSON value.
+> - Line comments start with `//`
 
 ## Grammar
 

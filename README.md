@@ -18,6 +18,9 @@ From [Beautiful Racket](https://beautifulracket.com/jsonic/specification.html)
 The grammar for this language, in Extended Backus–Naur form is as follows:
 
 ```
+jsonic-program : (jsonic-char | jsonic-sexp)*
+jsonic-char    : CHAR-TOK
+jsonic-sexp    : SEXP-TOK
 ```
 
 ## Directory Structure

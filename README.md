@@ -1,6 +1,6 @@
 # jsonic
 
-This is an implementation ... 
+This is an implementation of a domain-specific-language based on JSON. ...
 
 This is part of the excellent book [Beautiful Racket](https://beautifulracket.com/jsonic), which I would highly recommend checking out.
 

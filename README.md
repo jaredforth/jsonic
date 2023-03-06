@@ -40,3 +40,33 @@ jsonic-sexp    : SEXP-TOK
 
 Once the package is installed, the following programs can be run using `#lang jsonic`. 
 
+```racket
+#lang jsonic
+[
+  null,
+  42,
+  true,
+  ["array", "of", "strings"],
+  {
+    "key-1": null,
+    "key-2": false,
+    "key-3": {"subkey": 21}
+  }
+]
+```
+
+```racket
+#lang jsonic
+// a line comment
+[
+  @$ 'null $@,
+  @$ (* 6 7) $@,
+  @$ (= 2 (+ 1 1)) $@,
+  @$ (list "array" "of" "strings") $@,
+  @$ (hash 'key-1 'null
+           'key-2 (even? 3)
+           'key-3 (hash 'subkey 21)) $@
+]
+```
+
+Both of these should output the same result, but the latter uses S-expressions while the former uses hard-coded values.

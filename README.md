@@ -1,6 +1,6 @@
 # jsonic
 
-This is an implementation of a domain-specific-language based on JSON. ...
+This is an implementation of a domain-specific-language based on JSON that supports embedded S-expressions.
 
 This is part of the excellent book [Beautiful Racket](https://beautifulracket.com/jsonic), which I would highly recommend checking out.
 
@@ -21,11 +21,6 @@ The grammar for this language, in Extended Backus–Naur form is as follows:
 jsonic-program : (jsonic-char | jsonic-sexp)*
 jsonic-char    : CHAR-TOK
 jsonic-sexp    : SEXP-TOK
-```
-
-## Directory Structure
-
-```
 ```
 
 ## Usage 

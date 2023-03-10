@@ -7,4 +7,4 @@
                           ,parse-tree))
   (datum->syntax #f module-datum))
 (provide (contract-out
-         [read-syntax (any/c port? . -> . syntax?)]))
+         [read-syntax (any/c input-port? . -> . syntax?)]))
